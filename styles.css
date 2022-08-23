@@ -5,6 +5,10 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 a, a:visited{
     text-decoration: none;
     color: unset;
@@ -34,7 +38,7 @@ nav > div {
 }
 
 .landing-container {
-    height: 355px;
+    height: 385px;
     display: flex;
 }
 
@@ -46,22 +50,68 @@ nav > div {
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 0 40px;
+}
+
+.email-input-wrapper {
+    height: 3rem;
+    display: flex;
+    max-width: 600px;
 }
 
 .become-smarter h1 {
     font-weight: 900;
     font-size: 36px;
     line-height: 44px;
+    margin: 0;
 }
 
 .become-smarter > div {
     max-width: 700px;
 }
 
+.become-smarter input {
+    border: none;
+    height: 100%;
+    line-height: 100%;
+    font-size: 16px;
+    border-radius: 0.125rem;
+    flex: 1;
+}
+
+.become-smarter button {
+    height: 100%;
+    border: none;
+    background-color: rgb(17, 74, 140);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    padding: 0 16px;
+}
+
 .side {
     height: 100%;
     flex: 0;
     flex-basis: 470px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.side-headline {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.side-description {
+    font-size: 14px;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 600 !important;
 }
 
 .latest-banner {
