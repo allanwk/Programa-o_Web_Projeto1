@@ -14,6 +14,10 @@ img {
   border-radius: 0.25rem;
 }
 
+.wrapper-link {
+  display: block;
+}
+
 a,
 a:visited {
   text-decoration: none;
@@ -206,7 +210,7 @@ nav > div {
   flex: 1;
 }
 
-.main-right > div {
+.main-right > a {
   display: flex;
 }
 
