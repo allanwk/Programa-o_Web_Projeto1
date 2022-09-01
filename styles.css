@@ -225,6 +225,7 @@ nav > * {
 .main-right {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .main-right > * {
@@ -437,6 +438,24 @@ nav > * {
   .main-left h2,
   .headline {
     font-size: 1rem;
+  }
+
+  .email-input-wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 80px;
+    max-width: unset;
+  }
+
+  .become-smarter input {
+    width: 100%;
+    flex: 1;
+  }
+
+  .email-input-wrapper button {
+    width: 100%;
+    flex: 1;
   }
 }
 
